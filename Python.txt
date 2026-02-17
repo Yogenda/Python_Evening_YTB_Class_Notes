@@ -1,0 +1,285 @@
+Python?
+high-level, interpreted programming language - simplicity, power.
+
+Core features:
+- simple  syntax
+- interpreted
+- Versatile
+- cross-platform
+
+python ecosystem
+- web development -> Django, Flask, FastAPI
+- Data science -> Pandas, NumPy, Matplotlib, seaborn
+- machine learning -> TensorFlow, Scikit-learn, PyTorch
+- Automation -> selenium, Beautiful soup, scrapy
+
+print("hello world!")
+
+why should you learn it?
+- high Demand
+- productivity
+- community
+
+Where python is used
+- data science
+- AI
+- Web development (back-end)
+- automation
+- scripting
+- finTech
+- software testing
+
+who uses python?
+- google
+- Netflix
+- Instagram
+- spotify
+- nasa
+
+why is so popular?
+- readable
+- ecosystem
+- cross-platform
+
+python vs java
+
+execution flow
+- source code
+- compiler
+- bytecode
+- PVM - interpreter
+- Machine code
+
+Variables: reserved memory location or named memory location.
+age=25 # int value
+name="yogendra" #string
+score=95.5 #float
+
+naming rules
+- must start with letter or an underscore(_)
+- can not start with number
+	user1 - valid
+	1user - invalid
+- alphabet, number, and underscore
+	total_amount - valid
+	total-amount - not valid 
+- case sensitive
+	myvalue, MyValue, MYVALUE, Myvalue
+- No reserved keywords
+
+value kw - true, false, none
+logical op- and, or, not
+control flow - if, else, elif, for, while, break, continue
+function & class - def, return, class, lambda
+exception - try, except, finally, raise, assert
+imports - import, from , as
+scope - with, global, nonlocal
+asynchronous - async, await
+
+naming convention
+	- snake case (user_reg_data)
+	- camel case (MyCodingClass or myCodingClass)
+	- avoid using single name use descriptive name
+
+import keyword
+print(keyword.kwlist)
+
+int - whole numbers
+float - real numbers with decimal (10.5, 0.02, 2.5e2)
+	10^2= 250.0
+string - seq of characters ('', "", ''',""")
+Boolean - True, False
+
+============ class 2 ====================
+
+type() = to check the type of variable
+isinstance() = it handles inheritance
+
+type casting: is known as type conversion - process of changing a variable from one data type to another.
+- implicit - python convert the type automatically.
+- explicit - manually converting the type.
+
+Note: when i am using input() it always returns the string type.
+
+why is type casting important?
+- preventing errors
+- data precision
+- user interaction
+
+Memory basics()
+
+operators: special symbols used to perform operations on variables and value.
+
+a+b
+a,b = operands
++ = operator
+
+- arithmetic operators (mathematical calculations)
+	+ (add) -(subtract) *(Multi) /(division) //(Floor Division) %(Modulus) **(Power)
+used to :- calculations, finance app, counters, scores, marks
+
+/ division: decimal
+// Floor Division : questiont
+% Modulus: 
+
+comparison operator:
+==		equal to 	
+!= 		not equal
+>		Greater than
+<		less than
+>= 		greater than or equal
+<=		less than or equal
+
+5==5
+5>5
+5>=5
+
+use case: Login systems, age verification, conditions in if statement
+
+
+Logical operators: used to combine multiple conditions
+and: Both values must be true
+a		b 		r
+1		0		0
+0		1		0
+1		1		1
+0		0		0
+or: at least one value must be true
+a		b 		r
+1		0		1
+0		1		1
+1		1		1
+0		0		0
+not: reverse results
+a		r
+1		0
+0		1
+
+use case: login validation, form validation, access control
+
+Assignment operator: 
+a = 5			=
+a = a+5 #10		+=
+a = a-2 #8		-+
+a = a*2 #16		*=
+a = a/2 #8		/=
+a = a//3 #2		//=
+a= a+6 #8		+=
+a = a%3 #2		%=
+
+use case: counters, score update, loop increments
+
+Identity operator: check if two variables reffer the same memory location.
+	is: Same object
+	is not: Different objects
+
+Membership operator: Checks if a value exists in a sequence.
+	in: value exists
+	not in: value doesnot exist
+use case: searching in list, check username in database, validation.
+
+operator precedenc
+	- *
+	- / // %
+	- + -
+	- comparison
+	- not
+	- and
+	- or
+
+Advantages of operators
+- Make code shorter
+- impove readability
+- perform fast calculations
+- essential for conditions & loops
+
+common mistakes
+- using = insted oSf ==
+- confusing / and //
+- using is insted of ==
+- wrong precedence assumption
+
+====== class 5 ========
+conditional statement => Control flow statement
+If, if-else, elif, 
+if: if the statement is true it execute the block of code.
+Note: if using the if statement then it must end with ":" and indentation (4 space gap)
+
+elif: if more than 2 conditions or possiblities.
+
+====== class 6 ========
+code optimized
+- short-circuting
+- ternary operator(one-line)
+- avoid over nesting
+- prefer elif over multiple if's
+
+HW
+bank transection security
+imagin a system that processes a high value withdrawal.
+- it the account active?
+- does the account have enough balence?
+- if it's a very large amount, does it have an extra security.
+
+====== class 7 ========
+loop: execute a block of code multiple times.
+NOTE: range(5) it take the values starting from 0 and the last value at is 5 is not printed it takes n-1
+for loop: We know how many times we want to run the loop
+	syntax
+		for variable in sequence:
+			#code block
+use cases: 
+	- processing database records
+	- iterating over list, string, tuples......
+	- running fixed number of records
+
+pro tip:
+use enumerate() when index is needed.
+
+While loop: use dont know how many time we want to run a loop.
+syntax
+while condition:
+	#code run while condion is true
+
+- take user input until valid
+- game loop
+- wait for a condition to change
+
+always update the condition variable to avoid infinite loops
+while num <5:
+	print(num)
+
+
+============ class 9 ===========
+Break: it stops the loop immediatly even if condtion is true.
+(emergency exit)
+use case:
+	- stop searching once result is found
+	- exit on error
+	- early termination for performace
+
+Continue: skips current iteration and moves to the next loop cycle. (skip button)
+use case:
+	- skip invalid data
+	- skip unwanted values
+
+Pass: placeholder that does nothing. (avoid syntax error)
+
+for loop vs while loop
+for loop: when number of iteration is known
+condition implicit in range/sequence
+infinite loop if very low
+iterating sequence
+
+while loop: when number of iteration is unknown
+explicit condition
+risk of infinite loop high if not handled properly
+condition based repetition.
+
+
+
+
+
+
+
+
