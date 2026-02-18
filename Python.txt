@@ -263,7 +263,7 @@ use case:
 	- skip invalid data
 	- skip unwanted values
 
-Pass: placeholder that does nothing. (avoid syntax error)
+: placeholder that does nothing. (avoid syntax error)
 
 for loop vs while loop
 for loop: when number of iteration is known
@@ -275,6 +275,14 @@ while loop: when number of iteration is unknown
 explicit condition
 risk of infinite loop high if not handled properly
 condition based repetition.
+
+============ class 10 =========
+nested loops
+use case: 
+	- matrix operations
+	- Pattern printing
+	- comparing elements
+
 
 
 
