@@ -284,8 +284,74 @@ use case:
 	- comparing elements
 
 
+============== class 11 =========
+String: it a sequence of characters enclosed in quotation "" ''
+name = "Yogendra"
+	- string are ordered
+	- string are iterable
+	- string are immuatable
 
+concatenation (+)
+repetition - (string * 3)
+Membership (in)
 
+use join() insted of + in loop
+Note: join() is more efficient and use it with large data
+
+Indexing and slicing
+indexing use the [index no]
+slicing 
+	string[start:end:step]
+
+HW:
+	- print numbers from 1 to 10 using while loop and for loop.
+	- print even numbers between 1 to 20.
+	- find sum of first n natural numbers
+	- reverse a number using while loop.
+	- print multiplication table of a number
+	- check where a number is prime or not 
+	- print the factorial of a number using loop
+	- print a star pattern.
+	- take user input until user enter 'exit'.
+	- count digits in a number.
+	- print 
+		****
+		****
+		****
+		****
+	
+	-	*
+		**
+		***
+		****
+	
+	- 	****
+		***
+		**
+		*
+	
+	- 		*
+		   ***
+		  *****
+		 *******
+		*********
+	
+	- print the multiplication talbe of 5
+	- beak in nested loop
+	- 	1
+		23
+		456
+		78910
+	- 	1
+		12
+		123
+		1234
+	
+	- 	*****
+		*	*
+		*	*
+		*	*
+		*****
 
 
 
