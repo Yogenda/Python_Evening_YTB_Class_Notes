@@ -353,6 +353,25 @@ HW:
 		*	*
 		*****
 
+============= class 12 ===========
+string methods
+- lower()/upper()
+- strip()
+- split()
+- join()
+- replace()
+- find(): result -1 if not found
+- count(): 
+
+string immuatability
+you can not change a character directly.
+
+why immuatability matters?
+- memory efficient
+- thread safe
+- safe for hashing(dictionary keys)
+
+
 
 
 
