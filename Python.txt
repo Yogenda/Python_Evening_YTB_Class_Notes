@@ -371,6 +371,8 @@ why immuatability matters?
 - thread safe
 - safe for hashing(dictionary keys)
 
+Q. why is "".join(list) faster than +=
+Q. how do you find the last occurance of a substring?
 
 
 
