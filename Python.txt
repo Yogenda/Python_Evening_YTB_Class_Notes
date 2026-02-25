@@ -374,7 +374,20 @@ why immuatability matters?
 Q. why is "".join(list) faster than +=
 Q. how do you find the last occurance of a substring?
 
-
-
-
+challeges: Data sanitizer
+dirty_data = ["  PROD_99_old  ", "prod_88_OLD", "  pRoD_77_OlD  ", " PROD_66 "]
+	- clean the whitespace from both ends
+	- convert everthing in uppercase
+	- replace the string _old with _Active
+	- the code which don't have use _new
+	- seprate them with | symbol
+hw.
+.strip(), .lstrip(), rstrip()
+.lower(), .upper(), .title()- Coding Yogendra Bire
+.replace(old, new, count)
+.find(), .index()
+.split(separator)
+.join(iterable)
+.startwith(), .endwith()
+.isdigit(), isnumeric(), isdecimal()
 
