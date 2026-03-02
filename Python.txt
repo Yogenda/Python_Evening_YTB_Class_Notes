@@ -391,3 +391,13 @@ hw.
 .startwith(), .endwith()
 .isdigit(), isnumeric(), isdecimal()
 
+=============== class 16 ===============
+List: built in data stucture used to store a collection of items in a single variable.
+yes we can store the Different data types in list
+features:
+	- ordered ()
+	- mutable ()
+	- indexed
+	- Allows duplicates
+	- auto-resize (dynamic size)
+	- can store mixed data types

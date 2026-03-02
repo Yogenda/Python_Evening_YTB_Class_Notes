@@ -1,0 +1,59 @@
+class 10th (code 165)
+what is Internet:- internet is a massive, global network of physical hardware.
+			or
+it is a global n/w of interconnected computers.
+	- copper wire, fiber-optics, wireless, servers, routers.
+	- TCP/IP (transmission control protocol)
+		- application layer(http-web, ftp-files, smtp-email)
+		- transport layer
+		- internet layer
+		- network access layer
+What is WWW:- is a collection of web pages connected with hyperlink.
+	internet is not www
+	internet = network
+	www = service on internet
+it is one of may service that operate over the internet. it is collection of digital pages and resources.
+	- html, images, videos, hyperlink
+	- we use HTTP (hypertext transfer protocol) - to display the pages.
+
+what is url? Uniform resource locator.
+https://en.wikipedia.org/wiki/Tiger
+	it is the unique global address for a resource
+	protocol - https:// 
+	domain name - human readable address of the web server. (www.google.com).
+	path: /index.html - 
+	
+web server vs web client
+server = kitchen of restaurant
+client = customer
+
+customer order -> kitchen prepares -> food delivered
+browser request -> serve sends webpage
+
+web server: computer that stores website.
+	- apache http server
+	- nginx
+web client: the device or browser that requests information.
+	- laptop
+	- mobile
+	- browser
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
